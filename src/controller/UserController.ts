@@ -33,7 +33,7 @@ export class UserController {
     public createUser = async (req: Request, res: Response) => {
         try {
             const input: any = {
-              id: req.body,
+              id: req.body.id,
               name: req.body.name,
               email: req.body.email,
               password: req.body.password
