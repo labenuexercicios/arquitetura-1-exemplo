@@ -20,7 +20,7 @@ export class AccountController {
         } catch (error) {
             console.log(error)
     
-            if (req.statusCode === 200) {
+            if (res.statusCode === 200) {
                 res.status(500)
             }
     
@@ -57,7 +57,7 @@ export class AccountController {
         } catch (error) {
             console.log(error)
     
-            if (req.statusCode === 200) {
+            if (res.statusCode === 200) {
                 res.status(500)
             }
     
@@ -111,7 +111,7 @@ export class AccountController {
         } catch (error) {
             console.log(error)
     
-            if (req.statusCode === 200) {
+            if (res.statusCode === 200) {
                 res.status(500)
             }
     
@@ -157,7 +157,7 @@ export class AccountController {
         } catch (error) {
             console.log(error)
     
-            if (req.statusCode === 200) {
+            if (res.statusCode === 200) {
                 res.status(500)
             }
     
